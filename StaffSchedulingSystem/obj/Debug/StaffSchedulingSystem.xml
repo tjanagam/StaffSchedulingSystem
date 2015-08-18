@@ -1,0 +1,232 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StaffSchedulingSystem
+</name>
+</assembly>
+<members>
+<member name="T:StaffSchedulingSystem.SSMDataSet3.sp_leaveApplicationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet3.sp_leaveApplicationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet3.sp_leaveApplicationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet3TableAdapters.sp_leaveApplicationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(StaffSchedulingSystem.SSMDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(StaffSchedulingSystem.SSMDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(StaffSchedulingSystem.SSMDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet3TableAdapters.TableAdapterManager.UpdateAll(StaffSchedulingSystem.SSMDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet2.leaveapplicationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet2.leaveapplicationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet2.leaveapplicationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet2TableAdapters.leaveapplicationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(StaffSchedulingSystem.SSMDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(StaffSchedulingSystem.SSMDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(StaffSchedulingSystem.SSMDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet2TableAdapters.TableAdapterManager.UpdateAll(StaffSchedulingSystem.SSMDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet1.jobapplicantsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet1.jobapplicantsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet1.jobapplicantsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet1TableAdapters.jobapplicantsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(StaffSchedulingSystem.SSMDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(StaffSchedulingSystem.SSMDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(StaffSchedulingSystem.SSMDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSet1TableAdapters.TableAdapterManager.UpdateAll(StaffSchedulingSystem.SSMDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:StaffSchedulingSystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:StaffSchedulingSystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet.JobsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet.JobsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet.JobsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSetTableAdapters.JobsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(StaffSchedulingSystem.SSMDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(StaffSchedulingSystem.SSMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(StaffSchedulingSystem.SSMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:StaffSchedulingSystem.SSMDataSetTableAdapters.TableAdapterManager.UpdateAll(StaffSchedulingSystem.SSMDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:StaffSchedulingSystem.SSMDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

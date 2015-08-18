@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{550FD748-4986-4691-9A08-042EDC6BEE63}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>StaffSchedulingSystem.My.MyApplication</StartupObject>
+    <RootNamespace>StaffSchedulingSystem</RootNamespace>
+    <AssemblyName>StaffSchedulingSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>StaffSchedulingSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>StaffSchedulingSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applicants List.Designer.vb">
+      <DependentUpon>Applicants List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicants List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Page.Designer.vb">
+      <DependentUpon>Application Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Application Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create Employee.Designer.vb">
+      <DependentUpon>Create Employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Create Employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee Home.Designer.vb">
+      <DependentUpon>Employee Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobsPage.Designer.vb">
+      <DependentUpon>JobsPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JobsPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leave Application.Designer.vb">
+      <DependentUpon>Leave Application.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Leave Application.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leave Applications.Designer.vb">
+      <DependentUpon>Leave Applications.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Leave Applications.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Replacements.Designer.vb">
+      <DependentUpon>Replacements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Replacements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReplacementStatus.Designer.vb">
+      <DependentUpon>ReplacementStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReplacementStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SSMDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SSMDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SSMDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SSMDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SSMDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SSMDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SSMDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SSMDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="View Requests.Designer.vb">
+      <DependentUpon>View Requests.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View Requests.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Applicants List.resx">
+      <DependentUpon>Applicants List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Page.resx">
+      <DependentUpon>Application Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create Employee.resx">
+      <DependentUpon>Create Employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee Home.resx">
+      <DependentUpon>Employee Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobsPage.resx">
+      <DependentUpon>JobsPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leave Application.resx">
+      <DependentUpon>Leave Application.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leave Applications.resx">
+      <DependentUpon>Leave Applications.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Replacements.resx">
+      <DependentUpon>Replacements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReplacementStatus.resx">
+      <DependentUpon>ReplacementStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Requests.resx">
+      <DependentUpon>View Requests.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="SSMDataSet.xsc">
+      <DependentUpon>SSMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SSMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SSMDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SSMDataSet.xss">
+      <DependentUpon>SSMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SSMDataSet1.xsc">
+      <DependentUpon>SSMDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SSMDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SSMDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SSMDataSet1.xss">
+      <DependentUpon>SSMDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SSMDataSet2.xsc">
+      <DependentUpon>SSMDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SSMDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SSMDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SSMDataSet2.xss">
+      <DependentUpon>SSMDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SSMDataSet3.xsc">
+      <DependentUpon>SSMDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SSMDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SSMDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SSMDataSet3.xss">
+      <DependentUpon>SSMDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
